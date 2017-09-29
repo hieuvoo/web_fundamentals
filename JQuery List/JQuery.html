@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>      
+    <head>
+        <title>JQuery Functions</title>
+        <link rel="stylesheet" href="JQuery.css">
+        <script type="text/javascript" src= "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+
+        $("#box1").click(function(){
+            alert("\'.click ()'\ function has been called");
+        })
+
+        $("#box2").click(function(){
+            $("#box2 span").hide();
+        })
+
+        $("#box3").click(function(){
+            $("#box2 span").show();
+        })
+
+        $("#box4").click(function(){
+            $("#box4 span").toggle();
+        })
+        
+        $("#box5").click(function(){
+            $("#box5,#box6 span").slideUp();
+        })
+
+        $("#box6").click(function(){
+            $("#box5,#box6 span").slideDown();
+        })
+
+        $("#box7").click(function(){
+            $("#box7 span").slideToggle();
+        })
+
+        $("#box8").click(function(){
+            $("#box8,#box9 span").fadeOut();
+        })
+
+        $("#box9").click(function(){
+            $("#box8,#box9 span").fadeIn();
+        })
+
+        $("#box10").click(function(){
+            $("#box10 h2:first").addClass("intro");
+        })
+
+        $("#box11").click(function(){
+            $("#box11").before("<p>Hello World!</p>")
+        })
+
+        $("#box12").click(function(){
+            $("#box12").after("<p>Byeee</p>")
+        })
+
+        $("#box13").click(function(){
+            $("#box13 h2").append("<p>Appended text</p>")
+        }) 
+        
+        $("#box14").click(function(){
+            $("#box14 h2").html("HTML has <b>changed</b>")
+        })
+
+        $("#box15").click(function(){
+            $("#box15 img").attr("width", "500")
+        })
+
+        $("#box16").click(function(){
+            $("input:text").val("Leeeeroy Jenkins")
+        })
+        
+        $("#box17").click(function(){
+            $("#box17 h2").text("ALMOST FINISHEDDDD")
+        })
+
+        $("button1").click(function(){
+            $("#box18 div").data("greeting", "YOURE FINISHED!")
+        })
+            $("#button2").click(function(){
+                alert($("#box18 div").data("greeting"))
+            })
+        
+    
+
+
+        })
+        </script>
+        </head>
+        <body>
+            <div id="wrapper">
+            <div id ="header">
+            <h1>JQuery Functions List</h1>     
+           
+            <div id="box1">
+            <h2>.click - Bind an event handler to the “click” JavaScript event, or trigger that event on an element.</h2>
+            <button id=".click">.CLICK ()</button>         
+            </div>
+            
+            <div id="box2">
+            <h2>.hide() <span>- Hide the matched elements.</span></h2>
+            <button id=".hide">.HIDE ()</button>
+            </div>
+            
+            <div id = "box3">
+            <h2>.show() - Display the matched elements.</h2>
+            <button id=".show">.SHOW ()</id>
+            </div>
+            
+            <div id= "box4">
+            <h2>.toggle() <span>- Display or hide the matched elements.</span></h2>
+            <button id=".toggle">.TOGGLE ()</button>
+            </div>
+            
+            <div id= "box5">
+            <h2>.slideUp() <span> - Hide the matched elements with a sliding motion.</span></h2>
+            <button id=".slideUp">.SLIDEUP ()</button>
+            </div>
+            
+            <div id= "box6">
+            <h2>.slideDown() <span> - Display the matched elements with a sliding motion.</span></h2>      <button id=".slideDown">.SLIDEDOWN ()</button>          
+            </div>
+            
+            <div id= "box7">
+            <h2>.slideToggle()<span> - Display or hide the matched elements with a sliding motion.</span></h2>
+            <button id=".slideToggle">.SLIDETOGGLE ()</button>             
+            </div>
+            
+            <div id= "box8">
+            <h2>.fadeOut() <span>Hide the matched elements by fading them to transparent.</span></h2>                  <button id=".fadeOut">.FADEOUT ()</button>         
+            </div>
+            
+            <div id= "box9">
+            <h2>.fadeIn() <span>- - Display the matched elements by fading them to opaque.</span></h2>
+            <button id="fadeIn">.FADEIN ()</button>                
+            </div>
+            
+            <div id= "box10">
+            <h2>.addClass() <span>- Adds the specified class(es) to each element in the set of matched elements.</span>
+            </h2>
+            <button id="addClass">.ADDCLASS ()</button></div>
+            
+            <div id= "box11">
+            <h2><span>.before()<span>  "Insert content, specified by the parameter, before each element in the set of matched elements.</h2>
+            <button id="before">.BEFORE ()</h2>                               
+            </div>
+     
+            <div id= "box12">
+            <h2>.after() - Insert content, specified by the parameter, after each element in the set of matched elements.</h2>
+            <button id="after">.AFTER ()</button></div>
+        
+            <div id= "box13">
+            <h2>.append() - Insert content, specified by the parameter, to the end of each element in the set of matched elements.</h2>
+            <button id="append">.APPEND ()</button>
+            </div>
+        
+            <div id= "box14">
+            <h2>.html() - Get the HTML contents of the first element in the set of matched elements or set the HTML contents of every matched element.</h2>
+            <button id="">.HTML ()</button></div>
+        
+            <div id= "box15">
+            <h2>.attr() Get the value of an attribute for the first element in the set of matched elements or set one or more attributes for every matchede"lement.</h2>
+            <img src="ninja.png" alt="ninja">
+            <button id="">.ATTR ()</button></div>
+        
+            <div id= "box16">
+            <h2>.val() - Get the current value of the first element in the set of matched elements or set the value of every matched element.</h2><p>Name: <input type="text" name="user"></p><button id="">.VAL ()</button></div>
+        
+            <div id= "box17">
+            <h2>.text() - Get the combined text contents of each element in the set of matched elements, including their descendants, or set the text contents oft"he matched elements.</h2>
+            <button id="">.TEXT ()</button></div>
+            
+            <div id= "box18">
+            <h2>.data() - Store arbitrary data associated with the matched elements or return the value at the named data storef or the first element in the set of matched elements.</h2>
+            <button id="button1">ATTACH .DATA ()</button>
+            <button id="button2">RETRIEVE .DATA ()</button>
+            </div>
+            
+            
+</body>       
+</html>

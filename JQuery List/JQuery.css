@@ -1,0 +1,37 @@
+#wrapper{
+    width: 100%;
+    height: 100%;
+    background-color:#222b2a; 
+    overflow-y: scroll;
+}
+#header{
+    width: 100%;
+    height: 20%;
+    color: #cf3c24;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+}
+* h2{
+    color: olive;
+    font-size: 20px; 
+}
+
+.intro{
+    font-size: 25px;
+    color: #cf3c24;
+}
+
+#box1{
+    width: 100%;
+    height: 33%;
+}
+
+#box2{
+    width: 100%;
+    height: 33%;
+}
+#box3{
+    width: 100%;
+    height: 33%;
+}
