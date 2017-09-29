@@ -1,0 +1,21 @@
+#wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+label{
+    display: block;
+}
+#back{
+    display: none;
+}
+#right{
+    display: inline-block;
+}
+#right div{
+    border: 1px solid blue;
+}

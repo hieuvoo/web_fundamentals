@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>Kakashi-senpai</title>
+<link rel ="stylesheet" href="ninja.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    var HTMLstring = "";
+    for(var i =0; i < 8; i++){
+        HTMLstring += '<img src="kakashi.jpeg" alt="kakashi">'
+    }
+    HTMLstring +='<button>ADD CHAKRA</button>'
+    $(document).ready(function(){
+        $(".container").append(HTMLstring)
+
+        $("img").click(function(){
+            $(this).hide("slow");
+        })
+
+        $("button").click(function(){
+            $("img").show();
+        })
+    })
+</script>
+
+<head>
+</head>
+
+<body>
+    <div class="container">
+        
+    </div>
+</body>
+</html>

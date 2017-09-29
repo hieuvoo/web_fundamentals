@@ -1,0 +1,29 @@
+<html>
+<head>
+<script>
+
+var value = 2568;
+sum = 0;
+
+while(value){
+    sum+= value % 10;
+    value = Math.floor(value/10);
+}
+console.log(sum);
+
+
+// function sum_digits(g){
+//     if (g > 9){
+//         var i = parseInt(g/10) + g % 10
+//         return sum_digits(i);
+//     }
+//     else
+//     {
+//         return g;
+//     }   
+// }
+// console.log(sum_digits(928));
+
+</script>
+</head>
+</html>
