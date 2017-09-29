@@ -1,0 +1,185 @@
+*{
+    margin: 0px;    
+    padding: 0px;
+}
+#wrapper{
+    width: 1000px;
+    height: 1500px;
+    background-color: black
+    
+}
+#header{
+    width: 1000px;
+    height: 105px;
+    display: inline-block;
+    background-color: #1a1a1a;
+}
+#header img{
+    display: inline-block;
+    height: 100px;
+    /*margin-left: 5px;
+    margin-right: 5px;*/
+}
+#header h1{
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 478px;
+    vertical-align: top;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav{
+    height: 43px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: rgba(71,71,71,1);
+    background: -moz-linear-gradient(top, rgba(71,71,71,1) 20%, rgba(74,74,74,1) 29%, rgba(79,79,79,1) 43%, rgba(28,28,28,1) 59%, rgba(22,22,22,1) 83%, rgba(18,18,18,1) 99%, rgba(79,79,79,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(20%, rgba(71,71,71,1)), color-stop(29%, rgba(74,74,74,1)), color-stop(43%, rgba(79,79,79,1)), color-stop(59%, rgba(28,28,28,1)), color-stop(83%, rgba(22,22,22,1)), color-stop(99%, rgba(18,18,18,1)), color-stop(100%, rgba(79,79,79,1)));
+    background: -webkit-linear-gradient(top, rgba(71,71,71,1) 20%, rgba(74,74,74,1) 29%, rgba(79,79,79,1) 43%, rgba(28,28,28,1) 59%, rgba(22,22,22,1) 83%, rgba(18,18,18,1) 99%, rgba(79,79,79,1) 100%);
+    background: -o-linear-gradient(top, rgba(71,71,71,1) 20%, rgba(74,74,74,1) 29%, rgba(79,79,79,1) 43%, rgba(28,28,28,1) 59%, rgba(22,22,22,1) 83%, rgba(18,18,18,1) 99%, rgba(79,79,79,1) 100%);
+    background: -ms-linear-gradient(top, rgba(71,71,71,1) 20%, rgba(74,74,74,1) 29%, rgba(79,79,79,1) 43%, rgba(28,28,28,1) 59%, rgba(22,22,22,1) 83%, rgba(18,18,18,1) 99%, rgba(79,79,79,1) 100%);
+    background: linear-gradient(to bottom, rgba(71,71,71,1) 20%, rgba(74,74,74,1) 29%, rgba(79,79,79,1) 43%, rgba(28,28,28,1) 59%, rgba(22,22,22,1) 83%, rgba(18,18,18,1) 99%, rgba(79,79,79,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#474747', endColorstr='#4f4f4f', GradientType=0 );
+}
+#nav ul li{
+    list-style: none;
+    color: #98958d;
+    display: inline-block;
+    margin-top: 11px;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 10px;
+}
+#main_content img{
+    width: 989px;
+    margin-left: 5px;
+    margin-right: 5px; 
+}
+
+#box{
+    border-top-color: grey;
+    background-color: #1a1a1a;
+    width: 1000px;
+    height: 150px;  
+    display: inline-block; 
+}
+.box1{
+    width: 240px;
+    height: 150px;
+    display: inline-block;
+}
+.box2{
+    width: 240px;
+    height: 150px;
+    display: inline-block;
+}
+.box3{
+    width: 240px;
+    height: 150px;
+    display: inline-block;
+}
+.box4{
+    width: 240px;
+    height: 150px;
+    display: inline-block;
+}
+#box img{
+    width: 34px;
+    height: 26px;
+    position: relative;
+    margin-left: 10px;
+    padding-top: 10px;
+    vertical-align: top;
+}
+* h2 {
+    color: #d5782b;
+    font-size: 16px;    
+    display: inline-block;
+    padding-top: 10px;
+    font-family: serif; 
+    }
+* h3{
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    display: inline-block;
+    padding-left: 46px;
+}
+#footer1 {
+    width: 1000px;
+    height: 133px;
+    background-image: url("black.png");      
+    display: inline-block;  
+}
+
+#footer1 h4{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}
+#footer1 p{
+    color: white;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+#footer1 button{
+    background:    #ff9900;
+    background:    -webkit-linear-gradient(#ff9900, #ff9900);
+    background:    linear-gradient(#ff9900, #ff9900);
+    border-radius: 5px;
+    /*padding-right: 20px;      */
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal 700 24px/1 "Calibri", sans-serif;
+    text-align:    center;
+    text-shadow:   1px 1px #000000;
+    margin-right:  400px;
+    display: flex;
+    justify-content: flex-end;
+}
+#port{
+    width: 1000px;
+    height: 68px;
+    background-color: #1a1a1a;
+    display: inline-block;
+}
+#port h4{
+    display: inline-block;    
+    color: white;
+}
+#port h5{
+    display: inline-block;
+    color: #ff9900;
+    display: inline-block; 
+    display: flex;
+}
+.box5{
+    width: 208px;
+    height: 283px;
+    display: inline-block;
+}
+
+.box6{
+    width: 208px;
+    height: 283px;
+    display: inline-block;
+}
+
+.box7{
+    width: 208px;
+    height: 283px;
+    display: inline-block;
+}
+
+.box8{
+    width: 208px;
+    height: 283px;
+    display: inline-block;
+}
+#last{
+    display: flex;
+    justify-content: space-around;
+}
